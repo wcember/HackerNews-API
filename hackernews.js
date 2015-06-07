@@ -10,45 +10,47 @@ function httpGet(url)
     return JSON.parse(xmlHttp.responseText);
 }
 
-HN = {};
+hn = {};
 
-HN.get_item = function(item_id) {
+hn.getItem = function(item_id) {
 	item_id = item_id.toString();
 	var url = 'https://hacker-news.firebaseio.com/v0/item/' + item_id + '.json';
 	return httpGet(url);
 }
 
-HN.get_user = function(username) {
+hn.getUser = function(username) {
 	var url = 'https://hacker-news.firebaseio.com/v0/user/' + username +
 		'.json';
 	return httpGet(url);
 }
 
-HN.get_maxitem = function() {
+hn.getMaxItem = function() {
 	return httpGet('https://hacker-news.firebaseio.com/v0/maxitem.json');
 }
 
-HN.get_topstories = function() {
+hn.getTopStories = function() {
 	return httpGet('https://hacker-news.firebaseio.com/v0/topstories.json');
 }
 
-HN.get_newstories = function() {
+hn.getNewStories = function() {
 	return httpGet('https://hacker-news.firebaseio.com/v0/newstories.json');
 }
 
-HN.get_askstories = function () {
+hn.getAskStories = function () {
 	return httpGet('https://hacker-news.firebaseio.com/v0/askstories.json');
 }
 
-HN.get_showstories = function () {
+hn.getShowStories = function () {
 	return httpGet('https://hacker-news.firebaseio.com/v0/showstories.json');
 }
 
-HN.get_jobstories = function () {
+hn.getJobStories = function () {
 	return httpGet('https://hacker-news.firebaseio.com/v0/jobstories.json');
 }
 
-HN.get_updates = function() {
+hn.getUpdates = function() {
 	return httpGet('https://hacker-news.firebaseio.com/v0/updates.json');
 }
+
+exports.hn = hn;
 
