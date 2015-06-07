@@ -2,7 +2,7 @@ var hackernews = require('./hackernews');
 
 var assert = require('assert')
 
-hn = hackernews.hn;
+var hn = hackernews.hn;
 
 //Test getItem
 var pull = hn.getItem(8863);
