@@ -60,6 +60,6 @@ Returns: An object containing the item properties if the item exists, null other
 
 **getUpdates**
 * Returns: An object containing the the following attributes:
-  -items: The ID's of the latest items changed.
-  -profiles: The names of the latest profiles changed.
+  * items: The ID's of the latest items changed.
+  * profiles: The names of the latest profiles changed.
 
