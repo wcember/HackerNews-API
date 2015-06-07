@@ -8,7 +8,7 @@ HackerNews-API is a Node.js wrapper for accessing v0 of the official [Hacker New
 The current production release of HackerNews-API is available through [npm](https://www.npmjs.com/package/hackernews-api):
 
 ```
-npm install hacknews-api
+npm install hackernews-api
 ```
 
 ## Usage ##
@@ -27,6 +27,14 @@ npm install hacknews-api
   type : "story",
   url : "http://www.getdropbox.com/u/2/screencast.html"
 }
+> hn.getUser('wcember');
+{ about: 'programmer, actuary, consultant.<p>williamcember.com\ngithub.com&#x2F;
+wcember\n@wcember',
+  created: 1382846640,
+  delay: 0,
+  id: 'wcember',
+  karma: 4,
+  submitted: [ 9106838, 7979403, 6638253 ] }
 ```
 
 ## API ##
