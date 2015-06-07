@@ -41,8 +41,8 @@ wcember\n@wcember',
 All functionality is contained in the **hn** object, which contains the following:
 
 **getItem**
-Accepts: A string or number representing an item ID.
-Returns: An object containing the item properties if the item exists, null otherwise.
+* Accepts: A string or number representing an item ID.
+* Returns: An object containing the item properties if the item exists, null otherwise.
 
 **getUser**
 * Accepts: A string or number representing an item ID.
