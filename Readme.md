@@ -13,7 +13,7 @@ npm install hacknews-api
 
 ## Usage ##
 ```javascript
-> var hackernews = require('hackernewswrapper');
+> var hackernews = require('hackernews-api');
 > var hn = hackernews.hn;
 > hn.getItem(8863);
 {
@@ -30,7 +30,7 @@ npm install hacknews-api
 ```
 
 ## API ##
-The **hn** object contains the following methods:
+All functionality is contained in the **hn** object, which contains the following:
 
 **getItem**
 Accepts: A string or number representing an item ID.
