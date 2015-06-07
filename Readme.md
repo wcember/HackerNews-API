@@ -5,7 +5,7 @@ HackerNews-API is a Node.js wrapper for accessing v0 of the official [Hacker New
 
 ## Installation ##
 
-Install with npm:
+The current production release of HackerNews-API is available through [npm](https://www.npmjs.com/package/hackernews-api):
 
 ```
 npm install hacknews-api
