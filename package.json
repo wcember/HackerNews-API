@@ -1,5 +1,5 @@
 {
-  "name": "hackernewswrapper",
+  "name": "hackernews-api",
   "version": "0.0.0",
   "description": "Javascript wrapper for accessing the official Hacker News API v0",
   "main": "hackernews.js",
