@@ -31,6 +31,7 @@ npm install hackernewswrapper
 
 ## API ##
 The **hn** object contains the following methods:
+
 **getItem**
 Accepts: A string or number representing an item ID.
 Returns: An object containing the item properties if the item exists, null otherwise.
