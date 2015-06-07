@@ -1,4 +1,4 @@
-# HackernNewsWrapper #
+# HackerNewsWrapper #
 
 ## Overview ##
 HackerNewsWrapper is a Node.js wrapper for accessing v0 of the official [Hacker News API](https://github.com/HackerNews/API).
