@@ -1,7 +1,7 @@
 {
   "name": "hackernewswrapper",
   "version": "1.0.0",
-  "description": "Javascript wrapper for the official Hacker News API",
+  "description": "Javascript wrapper for the official Hacker News API v0",
   "main": "hackernews.js",
   "dependencies": {
     "xmlhttprequest": "^1.7.0"
