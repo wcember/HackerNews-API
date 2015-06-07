@@ -24,7 +24,7 @@
   "author": "William Cember <wcember@gmail.com> (http://williamcember.com)",
   "licenses": 
     {
-      "type": MIT",
+      "type": "MIT",
       "url": "https://github.com/wcember/hackernewswrapper/blob/master/LICENSE"
     },
   "bugs": {
