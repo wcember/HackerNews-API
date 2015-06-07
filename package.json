@@ -1,0 +1,30 @@
+{
+  "name": "hackernewswrapper",
+  "version": "1.0.0",
+  "description": "Javascript wrapper for the official Hacker News API",
+  "main": "hackernews.js",
+  "dependencies": {
+    "xmlhttprequest": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcember/hackernewswrapper.git"
+  },
+  "keywords": [
+    "hackernews",
+    "ycombinator",
+    "yc",
+    "wrapper",
+    "api"
+  ],
+  "author": "William Cember <wcember@gmail.com> (http://williamcember.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wcember/hackernewswrapper/issues"
+  },
+  "homepage": "https://github.com/wcember/hackernewswrapper#readme"
+}

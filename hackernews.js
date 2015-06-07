@@ -52,5 +52,3 @@ HN.get_updates = function() {
 	return httpGet('https://hacker-news.firebaseio.com/v0/updates.json');
 }
 
-console.log(HN.get_updates());
-
