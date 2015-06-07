@@ -22,9 +22,9 @@
     "api"
   ],
   "author": "William Cember <wcember@gmail.com> (http://williamcember.com)",
-  "license": 
+  "licenses": 
     {
-      "MIT",
+      "type": MIT",
       "url": "https://github.com/wcember/hackernewswrapper/blob/master/LICENSE"
     },
   "bugs": {
