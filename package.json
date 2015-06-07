@@ -1,6 +1,6 @@
 {
   "name": "hackernewswrapper",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Javascript wrapper for accessing the official Hacker News API v0",
   "main": "hackernews.js",
   "dependencies": {
@@ -22,7 +22,11 @@
     "api"
   ],
   "author": "William Cember <wcember@gmail.com> (http://williamcember.com)",
-  "license": "MIT",
+  "license": 
+    {
+      "MIT",
+      "url": "https://github.com/wcember/hackernewswrapper/blob/master/LICENSE"
+    },
   "bugs": {
     "url": "https://github.com/wcember/hackernewswrapper/issues"
   },
