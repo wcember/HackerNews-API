@@ -42,11 +42,11 @@ All functionality is contained in the **hn** object, which contains the followin
 
 **getItem**
 * Accepts: A string or number representing an item ID.
-* Returns: An object containing the item properties if the item exists, null otherwise.
+* Returns: An object containing the item's properties if the item exists, null otherwise.
 
 **getUser**
-* Accepts: A string or number representing an item ID.
-* Returns: An object containing the item properties if the item exists, null otherwise.
+* Accepts: A string representing a user.
+* Returns: An object containing the user's properties if the user exists, null otherwise.
 
 **getMaxItem**
 * Returns: The largest item ID (number).
@@ -70,5 +70,5 @@ All functionality is contained in the **hn** object, which contains the followin
 **getUpdates**
 * Returns: An object containing the the following attributes:
   * items: The ID's of the latest items changed.
-  * profiles: The names of the latest profiles changed.
+  * profiles: The usernames of the latest profiles changed.
 
