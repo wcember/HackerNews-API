@@ -36,30 +36,30 @@ Accepts: A string or number representing an item ID.
 Returns: An object containing the item properties if the item exists, null otherwise.
 
 **getUser**
-Accepts: A string or number representing an item ID.
-Returns: An object containing the item properties if the item exists, null otherwise.
+* Accepts: A string or number representing an item ID.
+* Returns: An object containing the item properties if the item exists, null otherwise.
 
 **getMaxItem**
-Returns: The largest item ID (number).
+* Returns: The largest item ID (number).
 
 **getTopStories**
-Returns: An array containing the ID's of up to the 500 top stories.
+* Returns: An array containing the ID's of up to the 500 top stories.
 
 **getNewStories**
-Returns: An array containing the ID's of up to the 500 latest stories.
+* Returns: An array containing the ID's of up to the 500 latest stories.
 
 **getAskStories**
-Returns: An array containing the ID's of up to the 200 latest [*Ask HN* stories](https://news.ycombinator.com/ask).
+* Returns: An array containing the ID's of up to the 200 latest [*Ask HN* stories](https://news.ycombinator.com/ask).
 
 
 **getShowStories**
-Returns: An array containing the ID's of up to the 200 latest [*Show HN* stories](https://news.ycombinator.com/show).
+* Returns: An array containing the ID's of up to the 200 latest [*Show HN* stories](https://news.ycombinator.com/show).
 
 **getJobStories**
-Returns: An array containing the ID's of up to the 200 latest [jobs stories](https://news.ycombinator.com/jobs).
+* Returns: An array containing the ID's of up to the 200 latest [jobs stories](https://news.ycombinator.com/jobs).
 
 **getUpdates**
-Returns: An object containing the the following attributes:
+* Returns: An object containing the the following attributes:
   -items: The ID's of the latest items changed.
   -profiles: The names of the latest profiles changed.
 
