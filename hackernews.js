@@ -1,3 +1,5 @@
+"use strict";
+
 var exports = module.exports = {};
 
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
@@ -10,7 +12,7 @@ function httpGet(url)
     return JSON.parse(xmlHttp.responseText);
 }
 
-hn = {};
+var hn = {};
 
 hn.getItem = function(item_id) {
 	item_id = item_id.toString();
