@@ -1,6 +1,9 @@
 (function(exports){
-	if (typeof XMLHttpRequest != 'function') {
+
+	if (typeof window == 'undefined') {
 		var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+	} else {
+		var XMLHttpRequest = window.XMLHttpRequest;
 	}
 
 	function httpGet(url)
@@ -55,5 +58,5 @@
 
 	exports.hn = hn;
 
-})(typeof exports === 'undefined'? this['hackernews-api']={}: exports);
+})(typeof exports === 'undefined'? this['hn']={}: exports);
 
