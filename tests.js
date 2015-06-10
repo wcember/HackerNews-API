@@ -1,8 +1,6 @@
-var hackernews = require('./hackernews');
+var hn = require('./hackernews');
 
 var assert = require('assert')
-
-var hn = hackernews.hn;
 
 //Test getItem
 var pull = hn.getItem(8863);
