@@ -13,8 +13,7 @@ npm install hackernews-api
 
 ## Usage ##
 ```javascript
-> var hackernews = require('hackernews-api');
-> var hn = hackernews.hn;
+> var hn = require('hackernews-api');
 > hn.getItem(8863);
 {
   by : "dhouston",
@@ -38,7 +37,6 @@ wcember\n@wcember',
 ```
 
 ## API ##
-All functionality is contained in the **hn** object, which contains the following:
 
 **getItem**
 * Accepts: A string or number representing an item ID.
