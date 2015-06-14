@@ -1,14 +1,23 @@
 var hn = function() {
-	var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-
-	var exports = module.exports = {};
-
-	function httpGet(url)
-	{
-	    var xmlHttp = new XMLHttpRequest();
-	    xmlHttp.open( "GET", url, false);
-	    xmlHttp.send( null );
-	    return JSON.parse(xmlHttp.responseText);
+	if (typeof require == 'function') {
+		var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+		var exports = module.exports = {};	
+		var httpGet = function(url)
+		{
+		    var xmlHttp = new XMLHttpRequest();
+		    xmlHttp.open("GET", url, false);
+		    xmlHttp.send(null );
+		    return JSON.parse(xmlHttp.responseText);
+		}	
+	} else {
+		var exports = {};
+		var httpGet = function(url)
+		{
+		    var xmlHttp = new XMLHttpRequest();
+		    xmlHttp.open("GET", url, true);
+		    xmlHttp.send(null );
+		    return JSON.parse(xmlHttp.responseText);
+		}	
 	}
 
 	exports.getItem = function(item_id) {
